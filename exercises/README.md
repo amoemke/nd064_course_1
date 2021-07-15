@@ -1,6 +1,6 @@
-# Set up virtual environment for Python
+# Virtual environment for Python and Flask
 
-## On top level directory nd064_course_1/exercises/
+## Set up - on top level directory nd064_course_1/exercises/
 
 $ virtualenv python-helloworld/
 
@@ -11,3 +11,11 @@ $ source bin/activate
 $ pip install Flask
 
 $  python3 app.py
+
+## Run - on directory python-helloworld/
+
+$ source bin/activate
+
+$ python3 app.py
+
+## Open browser to http://localhost:5000
